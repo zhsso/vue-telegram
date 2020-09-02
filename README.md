@@ -20,6 +20,9 @@ cd vue2-telegram
 npm install 
 
 npm run serve
+或者 
+npm run build
+node prod.server.js
 ```
 
 ### 实现功能

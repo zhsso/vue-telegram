@@ -45,11 +45,10 @@ export default {
     return {
       rightUrl: '/news',
       badgeFlag: true
-      // time: moment(new Date()).format('HH:mm')
     }
   },
   computed: {
-    ...mapGetters(['selectedChat'])
+    ...mapGetters(['selectedChat', 'getSelectId'])
   },
   created() {
     this.rightUrl = '/news/messagePanel/personInfo/' + this.selectedChat.tgid
