@@ -13,7 +13,12 @@ vue2仿telegram这个项目我把自己所学的vue大部分知识都用上了�
 ## 运行项目
 
 ```
-npm install
+git clone https://github.com/xxydrr/vue2-telegram.git 
+
+cd vue2-telegram
+
+npm install 
+
 npm run serve
 ```
 
