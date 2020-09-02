@@ -2,6 +2,10 @@ const express = require('express')
 
 const app = express()
 
+const router = express.Router()
+
+app.use('/api', router)
+
 app.use(express.static('./dist'))
 
 const port = process.env.PORT || 8900
