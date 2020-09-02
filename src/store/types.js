@@ -1,0 +1,44 @@
+// chat
+export const INIT_DATA = 'INIT_DATA' // 初始化数据
+export const SEARCH = 'SEARCH' // 查找
+export const SELECT_SESSIONS = 'SELECT_SESSIONS' // 选择当前对话列表
+export const SEND_MESSAGE = 'SEND_MESSAGE' // 发送信息
+export const CONTACT = 'CONTACT' // 选择好友后，点击发送信息。判断在聊天列表中是否有该好友，有的话跳到该好友对话。没有的话添加该好友的对话 并置顶
+// 好友列表
+export const SELECT_FRIEND = 'SELECT_FRIEND' //  选择好友列表
+export const GET_USER_DATA = 'GET_USER_DATA' // 获取用户数据信息
+// 对话列表
+export const CHANGE_READ_STATUS = 'CHANGE_READ_STATUS' // 修改信息是否已读的状态
+export const UPDATE_UNREAD_COUNT = 'UPDATE_UNREAD_COUNT' // 更新与某个对话中的未读消息数量
+export const UPDATE_NOTICE_STATUS = 'UPDATE_NOTICE_STATUS' // 更新是否显示通知状态
+export const UPDATE_DELETE_LIST = 'UPDATE_DELETE_LIST' // 更新删除联系人后的列表
+// 设置部分
+// 1、notifications 开关设置
+export const CHANGE_NOTE_ALL_ACCOUNTS = 'CHANGE_NOTE_ALL_ACCOUNTS'
+export const CHANGE_NOTE_MES_SHOW = 'CHANGE_NOTE_MES_NOTE'
+export const CHANGE_NOTE_MES_PRE = 'CHANGE_NOTE_MES_PRE'
+export const CHANGE_NOTE_GROUP_SHOW = 'CHANGE_NOTE_GROUP_SHOW'
+export const CHANGE_NOTE_GROUP_PRE = 'CHANGE_NOTE_GROUP_PRE'
+export const CHANGE_NOTE_CHANNEL_SHOW = 'CHANGE_NOTE_CHANNEL_SHOW'
+export const CHANGE_NOTE_CHANNEL_PRE = 'CHANGE_NOTE_CHANNEL_PRE'
+export const CHANGE_NOTE_APP_SOUNDS = 'CHANGE_NOTE_APP_SOUNDS'
+export const CHANGE_NOTE_APP_VIBRATE = 'CHANGE_NOTE_APP_VIBRATE'
+export const CHANGE_NOTE_APP_PREVIEW = 'CHANGE_NOTE_APP_PREVIEW'
+export const CHANGE_NOTE_NOLS = 'CHANGE_NOTE_NOLS'
+export const CHANGE_NOTE_BADGE_CHANNEL = 'CHANGE_NOTE_BADGE_CHANNEL'
+export const CHANGE_NOTE_BADGE_UNREAD = 'CHANGE_NOTE_BADGE_UNREAD'
+export const CHANGE_NOTE_NEW_CONTACT = 'CHANGE_NOTE_NEW_CONTACT'
+export const CHANGE_STICKERS_LAS = 'CHANGE_NOTE_STICKERS_LAS'
+export const CHANGE_DAS_GIF = 'CHANGE_NOTE_DAS_GIF'
+export const CHANGE_DAS_VIDEOS = 'CHANGE_NOTE_DAS_VIDEOS'
+export const CHANGE_DAS_SEP = 'CHANGE_NOTE_DAS_SEP'
+export const CHANGE_DAS_BGC = 'CHANGE_NOTE_DAS_BGC'
+
+// 个人资料设置
+// 更新姓名 头像 电话 邮箱
+export const UPDATE_USER_FIRST_NAME = 'UPDATE_USER_FIRST_NAME'
+export const UPDATE_USER_LAST_NAME = 'UPDATE_USER_LAST_NAME'
+export const UPDATE_USER_PHONE = 'UPDATE_USER_PHONE'
+export const UPDATE_USER_AVATAR = 'UPDATE_USER_AVATAR'
+export const UPDATE_USER_EMAIL = 'UPDATE_USER_EMAIL'
+export const UPDATE_USER_BIO = 'UPDATE_USER_BIO'

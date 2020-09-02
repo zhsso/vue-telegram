@@ -1,0 +1,25 @@
+.left-button {
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+    top: 0;
+    background-color: #fff;
+    color: #26a2ff;
+    .mint-button-icon {
+      vertical-align: top;
+      font-weight: 700;
+    }
+  }
+  .right-buttom {
+    position: absolute;
+    z-index: 1;
+
+    right: 0;
+    top: 0;
+    padding: 14px;
+    padding-top: 0;
+
+    background-color: #fff;
+    color: #26a2ff;
+    font-size: 18px;
+  }

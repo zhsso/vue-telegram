@@ -1,0 +1,32 @@
+/* @import "./animate.min.css"; */
+#app .main-page {
+  transition: 50ms;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+#app .main-page.hideLeft {
+  /* opacity: 0.75; */
+  transform: translate3d(-100%, 0, 0);
+  transition:  100ms;
+  overflow: hidden;
+}
+#app.sub-page {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  left: 0;
+  z-index: 5;
+}
+#app .main-page .content {
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1;
+  padding-bottom: 49px;
+  width: 100%;
+}
