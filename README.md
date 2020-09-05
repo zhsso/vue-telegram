@@ -53,7 +53,7 @@ node prod.server.js
 
 **对话界面**
 
-![](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/20200902112512.png)![](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/20200902112552.png)
+![](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/20200905204751.png)![](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/20200902112552.png)
 
 **对话面板界面**
 
