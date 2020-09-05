@@ -5,7 +5,7 @@ const state = {
     lastName: 'sss'
   },
   userPhone: 18922223333,
-  userAvatar: '/img/me.jpg',
+  userAvatar: 'https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/20200905225513.jpg',
   userEmail: 'iluxxyd@gmail.com',
   userBio: '',
   notifications: {

@@ -7,7 +7,7 @@ const state = {
   // 当前登录用户
   user: {
     name: 'god',
-    img: 'img/me.jpg'
+    img: 'https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/20200905225513.jpg'
   },
   // 对话列表
   chatList: [{
