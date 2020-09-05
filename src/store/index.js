@@ -14,12 +14,19 @@ const store = new Vuex.Store({
 })
 // 监听聊天列表的值， 发生变化就保存在localStorage中
 store.watch(
-  (state) => state.chatlist,
+  (state) => state.chat.chatList,
   (val) => {
     localStorage.setItem('tg-chat', JSON.stringify(val))
   }
   , {
     deep: true
+  }
+)
+// 监听selectId的值， 发生变化就保存在localStorage中
+store.watch(
+  (state) => state.chat.selectId,
+  (val) => {
+    localStorage.setItem('tg-selectId', JSON.stringify(val))
   }
 )
 export default store

@@ -48,11 +48,10 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['selectedChat', 'getSelectId'])
+    ...mapGetters(['selectedChat'])
   },
   created() {
     this.rightUrl = '/news/messagePanel/personInfo/' + this.selectedChat.tgid
-    // this.$root.$emit('goNavHide')
   },
   methods: {
     // 父元素调用子元素的方法，立即停止滚动事件。防止滚动未结束时候按返回发生clientHight和scrollHeight报undefined错误

@@ -342,8 +342,12 @@ const mutations = {
   // 从localStorage 中获取数据
   [types.INIT_DATA](state) {
     const data = localStorage.getItem('tg-chat')
+    const id = localStorage.getItem('tg-selectId')
     if (data) {
       state.chatList = JSON.parse(data)
+    }
+    if (id) {
+      state.selectId = JSON.parse(id)
     }
   },
   // 获取搜索值
