@@ -10,6 +10,14 @@ vue2仿telegram这个项目我把自己所学的vue大部分知识都用上了�
 
 其他：**better-scroll + animate.css**
 
+## 效果演示
+
+[点击查看demo](https://180231.xyz/vue2-telegram/#/)（请用chrome手机模式预览）
+
+二维码查看
+
+![](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/20200905223906.png)
+
 ## 运行项目
 
 ```
