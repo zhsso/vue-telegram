@@ -12,7 +12,7 @@ vue2仿telegram这个项目我把自己所学的vue大部分知识都用上了�
 
 ## 效果演示
 
-[点击查看demo](https://180231.xyz/vue2-telegram/#/)（请用chrome手机模式预览）
+[点击查看demo](https://180231.xyz/vue2-telegram/#/)（请用chrome手机模式预览better-scroll的原因PC浏览器预览时刷新一下效果更佳）
 
 二维码查看
 
