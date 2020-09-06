@@ -18,7 +18,7 @@ vue2仿telegram这个项目我把自己所学的vue大部分知识都用上了�
 
 ![](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/20200905223906.png)
 
-## 运行项目
+## 本地运行项目
 
 ```
 git clone https://github.com/xxydrr/vue2-telegram.git 
