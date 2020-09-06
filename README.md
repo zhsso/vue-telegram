@@ -21,9 +21,9 @@ vue2仿telegram这个项目我把自己所学的vue大部分知识都用上了�
 ## 本地运行项目
 
 ```
-git clone https://github.com/xxydrr/vue2-telegram.git 
+git clone https://github.com/xxydrr/vue-telegram.git 
 
-cd vue2-telegram
+cd vue-telegram
 
 npm install 
 
