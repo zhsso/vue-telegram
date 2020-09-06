@@ -12,11 +12,11 @@ vue2仿telegram这个项目我把自己所学的vue大部分知识都用上了�
 
 ## 效果演示
 
-[点击查看demo](https://180231.xyz/vue2-telegram/#/)（PC浏览器预览时请切换到手机预览模式同时建议刷新一下再预览）
+[点击查看demo](https://180231.xyz/vue-telegram/#/)（PC浏览器预览时请切换到手机预览模式同时建议刷新一下再预览）
 
 二维码查看
 
-![](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/20200905223906.png)
+![](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/20200906110444.png)
 
 ## 本地运行项目
 
